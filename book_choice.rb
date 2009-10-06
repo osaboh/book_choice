@@ -11,7 +11,7 @@ km2 = 'http://www.amazon.co.jp/dp/4797352965/'	# Real world Haskell <-- Math gir
 km3 = 'http://www.amazon.co.jp/dp/4797337958/'	# Usual compiler
 #km4 = 'http://www.amazon.co.jp/dp/4873114233'	# Real world Haskell (empty page)
 ir = 'http://www.amazon.co.jp/dp/4873113636/'	# Beautiful code
-urls = [sm, km1, km2, km3, km2, ir]
+urls = [sm, km1, km2, km3, ir]
 
 class Amazon
   attr_accessor :title, :isbn
